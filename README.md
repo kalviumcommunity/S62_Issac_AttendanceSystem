@@ -5,5 +5,5 @@
 4. Introduced basic usage of this keyword.
 ## How to Run
 1. Navigate to the project root directory.
-2. Compile: javac src/com/school/Student.java src/com/school/Course.java src/com/school/Main.java (or javac src/com/school/*.java)
+2. Compile: javac src/com/school/*.java (runs all the java files)
 3. Run: java -cp src com.school.Main
