@@ -1,4 +1,7 @@
 package com.school;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,5 +25,11 @@ public class Main {
             if (course != null) course.displayDetails();
         }
         System.out.println("\nSession 2: Core Domain Modelling Complete.");
+        ArrayList<AttendanceRecord> attendanceLog = new ArrayList<>();
+        attendanceLog.add(new AttendanceRecord(students[0].getStudentId(), courses[0].getCourseId(), "Present"));
+        attendanceLog.add(new AttendanceRecord(students[1].getStudentId(), courses[1].getCourseId(), "absents"));
+        for (AttendanceRecord record : attendanceLog) {
+            if (record != null) record.displayDetails();
+        }
     }
 }
