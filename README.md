@@ -4,9 +4,6 @@
 3. Utilized arrays of objects in Main.java to manage and display multiple students and courses.
 4. Introduced basic usage of this keyword.
 ## How to Run
-##### Step1: 
-Navigate to the project root directory.
-##### Step2: 
-Compile: javac src/com/school/Student.java src/com/school/Course.java src/com/school/Main.java (or javac src/com/school/*.java)
-##### Step3: 
-Run: java -cp src com.school.Main
+1. Navigate to the project root directory.
+2. Compile: javac src/com/school/Student.java src/com/school/Course.java src/com/school/Main.java (or javac src/com/school/*.java)
+3. Run: java -cp src com.school.Main
